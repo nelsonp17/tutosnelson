@@ -1,0 +1,13 @@
+doctype html5
+html(lang="es")
+  head
+    title #{titulo}
+    meta(chaset="utf-8")
+  body
+    div#container
+        h1 Formulario de envio post
+        form(action="/formulario" method="post")
+            div.container
+                label Escriba su nombre
+                input(type="text" name="name" required)
+            input(type="submit" value="Send")

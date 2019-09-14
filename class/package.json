@@ -1,0 +1,19 @@
+{
+  "name": "class",
+  "version": "1.0.0",
+  "description": "curso de nodeJs practicas",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "grunt": "^1.0.3",
+    "grunt-purifycss": "^0.1.2",
+    "grunt-uncss": "^0.8.5",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nelson",
+  "license": "ISC"
+}

@@ -1,0 +1,4 @@
+# ignora la carpeta de modulos de node
+/node_modules
+/class/node_modules
+/proyecto/node_modules

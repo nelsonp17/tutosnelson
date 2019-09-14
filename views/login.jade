@@ -1,0 +1,14 @@
+extends ./layouts.jade
+block contenido
+    div.container.mt-5
+        h4.text-primary.text-center Formulario de Inicio
+        div.row.mt-5
+            form.col-sm-8.offset-lg-2(action="/users",method="post")
+                div.form-group.col
+                    label(for="email") Correo Eletrónico
+                    input.form-control#email(autofocus required type="email",placeholder="Escriba su correo",name="email")
+                div.form-group.col
+                    label(for="password") Contraseña
+                    input.form-control#password(required type="password",placeholder="Escriba su correo",name="password")
+                div.col.offset-lg-2
+                    button.btn.px-5.btn-primary(type="submit") Registrar y Enviar Formulario

@@ -1,0 +1,25 @@
+doctype html
+html(lang="es")
+  head
+    title #{titulo}
+    meta(chaset="utf-8")
+  body
+    div#container
+        p.myClass.
+            Hola mundo Bienvenido a mi mundo #{name}
+        ul
+            li
+                a(href="www.google.com" class="miClass") Google
+            li
+                a(href="#") Click
+        h1.
+            Bienvenido a mi página web
+        input(type="text" value="hola")
+    - let x = `nelson portillo`;
+    h1 variable en javascript: #{x}
+    -if (true)
+        ul
+            li
+                a(href="www.google.com" class="miclass") #{name}
+
+
