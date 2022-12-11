@@ -4,7 +4,7 @@
   "description": "curso de nodeJs practicas",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "grunt": "^1.0.3",
     "grunt-purifycss": "^0.1.2",
     "grunt-uncss": "^0.8.5",
